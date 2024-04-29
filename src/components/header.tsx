@@ -9,18 +9,14 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <div id="info" className="w-full gap-2 mb-12 mt-2 p-10 rounded-md h-64 justify-center bg-gradient-to-r from-cyan-500 to-blue-500 flex flex-col md:m-0 md:h-full">
+    <div id="info" className="w-full gap-2 mb-12 mt-2 p-10 rounded-md h-64 text-white justify-center bg-gradient-to-r from-cyan-500 to-blue-500 flex flex-col md:m-0 md:h-full">
       <h1 className="text-4xl text-center md:text-left font-bold">
-        Get the Facts Straight.
+        WIN SOLANA
       </h1>
 
       <div className="flex-col content-center gap-2">
         <div>
-          The <b>$BON CTO </b> is a leader in <b>content</b> creation,{" "}
-          <b>innovation</b>, and <b>creativity</b> in the <b>politifi</b> space.
-          <br />
-          <br />
-          <b className="font-bold">Join the $BON movement.</b>
+          <p>Have a video idea? Submit it today for a chance to win 0.1 SOL!</p>
         </div>
         <Popover>
           <PopoverTrigger asChild>

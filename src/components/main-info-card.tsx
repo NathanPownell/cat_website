@@ -149,6 +149,24 @@ const MainInfoCard = () => {
             </a>
           </div>
         </Button>
+        <Button size={"sm"} asChild variant={"outline"}>
+          <div className="flex gap-1">
+            <Image
+              src="/youtube.png"
+              width={16}
+              height={16}
+              alt="youtube"
+              className="w-6 h-6 rounded-full"
+            />
+            <a
+              className="text-xs"
+              href="https://www.youtube.com/@BonShatiro"
+              target="_blank"
+            >
+              Youtube
+            </a>
+          </div>
+        </Button>
       </div>
     </Card>
   );

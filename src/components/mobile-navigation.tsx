@@ -23,7 +23,7 @@ const MobileNavigation = () => {
     <div className="md:hidden">
       <Drawer>
         <DrawerTrigger asChild>
-          <Button size="icon" className="fixed z-50 bottom-4 right-4">
+          <Button size="icon" className="fixed z-50 bottom-4 right-4 bg-gradient-to-r from-blue-800 to-blue-500 shadow-lg">
             <MenuIcon />{" "}
           </Button>
         </DrawerTrigger>

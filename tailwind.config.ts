@@ -1,5 +1,6 @@
 import type { Config } from "tailwindcss";
 import { fontFamily } from "tailwindcss/defaultTheme";
+import { Poppins } from "next/font/google";
 
 const config = {
   darkMode: ["class"],
@@ -21,6 +22,9 @@ const config = {
     extend: {
       fontFamily: {
         sans: ["var(--font-sans)", ...fontFamily.sans],
+      },
+      backgroundImage: {
+        'hero-background': "url('/hero-bg.png')",
       },
       colors: {
         border: "hsl(var(--border))",
