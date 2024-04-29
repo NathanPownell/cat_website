@@ -22,7 +22,7 @@ const MainInfoCard = () => {
   };
 
   return (
-    <Card  className="flex w-full min-h-full flex-col gap-3 p-2">
+    <Card  className="flex w-full max-w-lg min-h-full flex-col gap-3 p-2">
       <div>
         <div className="flex flex-col justify-center text-center align-center">
           <div className="flex w-full justify-center">

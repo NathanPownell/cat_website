@@ -18,7 +18,7 @@ export default function Home() {
     <main className="flex min-h-screen min-w-screen flex-col items-center gap-12">
       <div className="z-10 flex flex-col w-full gap-12 items-center justify-center  text-sm lg:flex">
         <Hero />
-        <Container>
+        <Container className="flex flex-col items-center">
 
         <div>
         <MainInfoCard />
