@@ -5,6 +5,7 @@ import Container from "@/components/container";
 import Content from "@/components/content";
 import Header from "@/components/header";
 import Hero from "@/components/hero";
+import HowToBuy from "@/components/how-to-buy";
 import MainInfoCard from "@/components/main-info-card"
 import Image from "next/image";
 
@@ -24,6 +25,7 @@ export default function Home() {
         <MainInfoCard />
         </div>
         {/* <Header /> */}
+        <HowToBuy />
         <Content />
         </Container>
       </div>
