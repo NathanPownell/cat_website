@@ -8,6 +8,7 @@ import { ModeToggle } from "@/components/mode-toggle";
 import { Navigation } from "@/components/navigation";
 import MobileNavigation from "@/components/mobile-navigation";
 import { Poppins as FontSans } from "next/font/google";
+import Head from "next/head";
 
 export const metadata: Metadata = {
   title: "$BON Shatiro",
@@ -16,7 +17,7 @@ export const metadata: Metadata = {
 
 const fontSans = FontSans({
   subsets: ["latin"],
-  weight: ['400', '500', '700'],
+  weight: ["400", "500", "700"],
   variable: "--font-sans",
 });
 
@@ -27,6 +28,21 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Head>
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="any" />
+        <link
+          rel="icon"
+          href="/icon?<generated>"
+          type="image/<generated>"
+          sizes="<generated>"
+        />
+        <link
+          rel="apple-touch-icon"
+          href="/apple-icon?<generated>"
+          type="image/<generated>"
+          sizes="<generated>"
+        />
+      </Head>
       <body
         // className={cn(
         //   "min-h-screen min-w-screen bg-background font-sans antialiased",
