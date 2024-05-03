@@ -25,8 +25,8 @@ export default function Home() {
         <MainInfoCard />
         </div>
         {/* <Header /> */}
-        <HowToBuy />
         <Content />
+        <HowToBuy />
         </Container>
       </div>
     </main>

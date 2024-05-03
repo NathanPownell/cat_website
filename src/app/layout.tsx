@@ -9,6 +9,7 @@ import { Navigation } from "@/components/navigation";
 import MobileNavigation from "@/components/mobile-navigation";
 import { Poppins as FontSans } from "next/font/google";
 import Head from "next/head";
+import Footer from "@/components/footer";
 
 export const metadata: Metadata = {
   title: "$BON Shatiro",
@@ -55,6 +56,7 @@ export default function RootLayout({
           <MobileNavigation />
           <Navigation />
           {children}
+          <Footer />
         </ThemeProvider>
       </body>
     </html>
