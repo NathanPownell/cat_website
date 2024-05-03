@@ -2,7 +2,7 @@
 import { cn } from "@/lib/utils";
 import { useEffect, useRef } from "react";
 
-export function Video(Props: { className: string; src?: string;}) {
+export function Video(Props: { className?: string; src?: string;}) {
   const { className, src } = Props;
   const videoRef = useRef(null) as React.MutableRefObject<HTMLVideoElement | null>;
 
