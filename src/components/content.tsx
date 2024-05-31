@@ -10,32 +10,22 @@ import { cn } from "@/lib/utils";
 
 const Content = () => {
   const [selectedVideo, setSelectedVideo] =
-    React.useState<string>("/CincoDemayo.mp4");
+    React.useState<string>("/ZeckMurris.mp4");
   const videos = [
     {
-      title: "Cinco",
-      src: "/CincoDeMayo.mp4",
-      image: "/videos/CincoDemayo.png",
+      title: "Zeck Murris",
+      src: "/ZeckMurris.mp4",
+      image: "/videos/ZeckMurris.jpg",
     },
     {
-      title: "Mamala",
-      src: "/Mamala.mp4",
-      image: "/videos/BonShatiroShowCover.png",
-    },
-    {
-      title: "Work From Home",
-      src: "/WorkFromHome.mp4",
-      image: "/videos/BonShatiroShowCover.png",
+      title: "Caitlyn Jenner",
+      src: '/CaitlynJenner.mp4',
+      image: "/videos/CaitlynJenner.jpg",
     },
     {
       title: "American Psycho",
       src: "/AmericanPsycho.mp4",
       image: "/videos/AmericanPsycho.png",
-    },
-    {
-      title: "Week",
-      src: "/Week.mp4",
-      image: "/videos/BonShatiroShowCover.png",
     },
     { 
       title: "Sleepy", 

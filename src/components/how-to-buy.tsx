@@ -1,12 +1,16 @@
 import Link from "next/link";
 import React from "react";
 import { Card } from "./ui/card";
+import Image from "next/image";
 
 const HowToBuy = () => {
   return (
-    <Card id="how-to-buy" className="p-4 my-4">
+    <Card id="how-to-buy" className="p-4 flex flex-col gap-2 my-4">
       <div className="text-3xl font-bold">How To Buy $BON</div>
       <br />
+      <div className="flex w-full justify-center align-end">
+          <Image src="/Phantom.png" className="rounded-md shadow-md" width={200} height={200} alt="Phantom App" />
+      </div>
       <div className="text-2xl font-bold text-muted-foreground">
         Step 1: Download Phantom
       </div>
@@ -15,6 +19,9 @@ const HowToBuy = () => {
         a wallet and write the seed phrase down and keep it safe.
       </p>
       <br />
+      <div className="flex w-full justify-center align-end">
+          <Image src="/Phantom2.png" className="rounded-md shadow-md" width={200} height={200} alt="Phantom App" />
+      </div>
       <div className="text-2xl font-bold text-muted-foreground">
         Step 2: Buy Solana
       </div>
@@ -23,28 +30,23 @@ const HowToBuy = () => {
         next step.
       </p>
       <br />
+      <div className="flex w-full justify-center align-end">
+          <Image src="/Phantom3.png" className="rounded-md shadow-md" width={200} height={200} alt="Phantom App" />
+      </div>
       <div className="text-2xl font-bold text-muted-foreground">
-        Step 3: Go To Birdeye
+        Step 3: Click Swap & Search for $BON
       </div>
       <p>
-        Visit{" "}
-        <Link
-        className="underline"
-          href={
-            "https://birdeye.so/token/6bPFbxgpsFZg6WDruj7vrodq4GY7K7TmqUnAm1byu3PW?chain=solana"
-          }
-        >
-          Birdeye.so
-        </Link>
-        , which is a DEX, or Decentralized Exchange. Press the &quot;Connect
-        Wallet&quot; button to connect your Phantom wallet to the DEX. Ensure
-        the token address matches $BON.{" "}
+        Click the &quot;Swap&quot; button on the bottom of the Phantom app and search for &quot;Bon Shatiro&quot; in the token search bar.
       </p>
       <br />
+      <div className="flex w-full justify-center align-end">
+          <Image src="/Phantom4.png" className="rounded-md shadow-md" width={200} height={200} alt="Phantom App" />
+      </div>
       <div className="text-2xl font-bold text-muted-foreground">
         Step 4: Swap Solana for $BON
       </div>
-      <p>Press the &quot;Swap&quot; button and swap your Solana for $BON.</p>
+      <p>Enter the amount of SOL you wish to swap for $BON tokens. Press the &quot;Review Order&quot; button and swap your Solana for $BON.</p>
       <br />
       <b>
         It&apos;s that simple. If you have any questions about the process

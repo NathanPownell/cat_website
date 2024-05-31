@@ -10,8 +10,8 @@ export function Video(Props: { className?: string; src?: string;}) {
     videoRef.current?.load();
   }, [src]);
     return (
-      <video ref={videoRef} className={cn(className, "rounded-lg shadow-lg")} loop width='800' autoPlay muted controls preload="none">
-        <source src={src ?`/videos${src}` : "/videos/CincoDemayo.mp4"} type="video/mp4" />
+      <video ref={videoRef} className={cn(className, "rounded-lg shadow-lg")} loop width='800' muted controls preload="none">
+        <source src={src ?`/videos${src}` : "/videos/CaitlynJenner.mp4"} type="video/mp4" />
         <track
           src="/path/to/captions.vtt"
           kind="subtitles"
