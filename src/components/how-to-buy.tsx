@@ -9,7 +9,7 @@ const HowToBuy = () => {
       <div className="text-3xl font-bold">How To Buy $BON</div>
       <br />
       <div className="flex w-full justify-center align-end">
-          <Image src="/phantom.png" className="rounded-md shadow-md" width={200} height={200} alt="Phantom App" />
+          <Image src="/phantom/phantom.png" className="rounded-md shadow-md" width={200} height={200} alt="Phantom App" />
       </div>
       <div className="text-2xl font-bold text-muted-foreground">
         Step 1: Download Phantom
@@ -20,7 +20,7 @@ const HowToBuy = () => {
       </p>
       <br />
       <div className="flex w-full justify-center align-end">
-          <Image src="/phantom2.png" className="rounded-md shadow-md" width={200} height={200} alt="Phantom App" />
+          <Image src="/phantom/phantom2.png" className="rounded-md shadow-md" width={200} height={200} alt="Phantom App" />
       </div>
       <div className="text-2xl font-bold text-muted-foreground">
         Step 2: Buy Solana
@@ -31,7 +31,7 @@ const HowToBuy = () => {
       </p>
       <br />
       <div className="flex w-full justify-center align-end">
-          <Image src="/phantom3.png" className="rounded-md shadow-md" width={200} height={200} alt="Phantom App" />
+          <Image src="/phantom/phantom3.png" className="rounded-md shadow-md" width={200} height={200} alt="Phantom App" />
       </div>
       <div className="text-2xl font-bold text-muted-foreground">
         Step 3: Click Swap & Search for $BON
@@ -41,7 +41,7 @@ const HowToBuy = () => {
       </p>
       <br />
       <div className="flex w-full justify-center align-end">
-          <Image src="/phantom4.png" className="rounded-md shadow-md" width={200} height={200} alt="Phantom App" />
+          <Image src="/phantom/phantom4.png" className="rounded-md shadow-md" width={200} height={200} alt="Phantom App" />
       </div>
       <div className="text-2xl font-bold text-muted-foreground">
         Step 4: Swap Solana for $BON
