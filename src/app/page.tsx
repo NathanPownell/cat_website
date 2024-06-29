@@ -3,6 +3,7 @@
 
 import Container from "@/components/container";
 import Content from "@/components/content";
+import Dripz from "@/components/dropz";
 import Header from "@/components/header";
 import Hero from "@/components/hero";
 import HowToBuy from "@/components/how-to-buy";
@@ -25,6 +26,7 @@ export default function Home() {
         <MainInfoCard />
         </div>
         {/* <Header /> */}
+        <Dripz />
         <Content />
         <HowToBuy />
         </Container>
