@@ -10,10 +10,10 @@ import { cn } from "@/lib/utils";
 
 const Content = () => {
   const [selectedVideo, setSelectedVideo] =
-    React.useState<string>("/Moosk2.mp4");
+    React.useState<string>("/Moosk.mp4");
   const videos = [
     {title: "Elawn Moosk",
-      src: "/Moosk2.mp4",
+      src: "/Moosk.mp4",
       image: "/videos/Moosk2.png",
     },
     {

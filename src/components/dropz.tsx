@@ -20,7 +20,7 @@ const Dropz = () => {
             asChild
             className="w-min bg-transparent border-color-white border-2"
           >
-            <Link target="_blank" href="http://dropz.cc"> Buy now &nbsp;<ExternalLinkIcon size="14" /> </Link>
+            <Link target="_blank" href="https://dropz.cc/e/wget_atut8b7cgfdqjpkccwyer"> Buy now &nbsp;<ExternalLinkIcon size="14" /> </Link>
           </Button>
           <Link href="http://x.com/dropzcc" target="_blank" className="underline font-bold">Follow Dropz on X!</Link>
         </div>
