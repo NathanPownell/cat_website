@@ -7,7 +7,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 import { ModeToggle } from "@/components/mode-toggle";
 import { Navigation } from "@/components/navigation";
 import MobileNavigation from "@/components/mobile-navigation";
-import { Poppins as FontSans } from "next/font/google";
+import { Single_Day as FontSans } from "next/font/google";
 import Head from "next/head";
 import Footer from "@/components/footer";
 
@@ -17,8 +17,8 @@ export const metadata: Metadata = {
 };
 
 const fontSans = FontSans({
-  subsets: ["latin"],
-  weight: ["400", "500", "700"],
+  // subsets: ["latin"],
+  weight: ["400", "400"],
   variable: "--font-sans",
 });
 

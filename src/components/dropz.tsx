@@ -11,7 +11,7 @@ const Dropz = () => {
       <Image src="/Dropz.png" alt="dripz" width={130} height={200} />
       <div className="flex flex-col gap-2">
         <h3 className="text-lg font-bold">Buy on Dropz</h3>
-        <p className="text-sm">
+        <p className="text-md">
           Sign up with email and buy the hottest memecoins with credit/debit
           card!
         </p>

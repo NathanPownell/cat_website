@@ -20,7 +20,7 @@ export function Navigation() {
           alt="the bon shapiro show"
         />
       </div>
-      {/* <div className="flex text-sm gap-4">
+      {/* <div className="flex text-md gap-4">
         <Link href="/">Info</Link>
         <Link href="/">Content</Link>
         <Link href="/">FAQs</Link>

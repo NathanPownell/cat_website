@@ -18,7 +18,7 @@ export default function Home() {
           <Image src='/bonshatiroshow.png' alt='bon shapiro show' width={100} height={80} />
         </div>
     <main className="flex min-h-screen min-w-screen flex-col items-center gap-12">
-      <div className="z-10 flex flex-col w-full gap-12 items-center justify-center  text-sm lg:flex">
+      <div className="z-10 flex flex-col w-full gap-12 items-center justify-center   lg:flex">
         <Hero />
         <Container className="flex flex-col items-center">
 

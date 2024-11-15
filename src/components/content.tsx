@@ -49,12 +49,12 @@ const Content = () => {
         <Video className="" src={selectedVideo} />
         </div>
         <ScrollArea className="w-screen md:max-h-[450px] md:w-max max-w-full whitespace-nowrap rounded-md">
-          <div className="flex w-max md:flex-col">
+          <div className="flex w-max md:flex-col gap-2">
             {videos.map((video) => (
               <Button variant={'ghost'} asChild key={video.title}>
                 <div
                   onClick={() => handleSelectVideo(video.src)}
-                  className={cn(selectedVideo === video.src ? 'bg-muted border-2 border-blue-400' : 'opacity-80', "rounded-md gap-2  h-min cursor-pointer aspect-video flex flex-col justify-end items-center transition duration-300 ease-in-out")}
+                  className={cn(selectedVideo === video.src ? 'bg-muted border-2 border-blue-400' : 'opacity-80', "rounded-md gap-1  h-min cursor-pointer aspect-video flex flex-col justify-end items-center transition duration-300 ease-in-out")}
                 >
                   <Image
                     src={video.image}
