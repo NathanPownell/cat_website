@@ -117,7 +117,7 @@ const MainInfoCard = () => {
             />
             <a
               className="text-xs"
-              href="https://dexscreener.com/solana/djbznkc7f9jxdc1cyb7k78hfrnidavspkiyuj3kuzac8"
+              href="https://dexscreener.com/solana/DxKYbiyJrPQ1s7YW4JDJxEfppsncsDeCD4SZqQ5Epump"
               target="_blank"
             >
               Dexscreener
