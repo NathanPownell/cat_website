@@ -17,6 +17,7 @@ import { ExternalLinkIcon, MenuIcon } from "lucide-react";
 import { PopoverTrigger } from "./ui/popover";
 import Link from "next/link";
 import Image from "next/image";
+import { CONTRACT_ADDRESS } from "@/helpers/common";
 
 const MobileNavigation = () => {
   return (
@@ -32,10 +33,10 @@ const MobileNavigation = () => {
             <DrawerTitle>
               <div className="w-full flex justify-between">
                 <Image
-                  src="/bonshatiroshow.png"
+                  src="/fartcatLogo.png"
                   width={100}
                   height={80}
-                  alt="the bon shapiro show"
+                  alt="Fred the Farting Cat"
                 />
                                 <ModeToggle />
 
@@ -59,7 +60,7 @@ const MobileNavigation = () => {
                     <div className="flex rounded-md shadow-md flex-col gap-2">
                     <Button asChild variant="outline" size="sm">
                 <Link
-                  href="https://birdeye.so/token/6bPFbxgpsFZg6WDruj7vrodq4GY7K7TmqUnAm1byu3PW?chain=solana"
+                  href={`https://birdeye.so/token/${CONTRACT_ADDRESS}?chain=solana`}
                   target="_blank"
                 >
                   Buy on Birdeye &nbsp; <ExternalLinkIcon size="14" />

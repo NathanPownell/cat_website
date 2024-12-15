@@ -7,6 +7,7 @@ import { ModeToggle } from "./mode-toggle";
 import { Button } from "./ui/button";
 import { Popover, PopoverContent, PopoverTrigger } from "./ui/popover";
 import { ExternalLinkIcon } from "lucide-react";
+import { CONTRACT_ADDRESS } from "@/helpers/common";
 
 
 export function Navigation() {
@@ -14,10 +15,10 @@ export function Navigation() {
     <div className="hidden md:flex sticky  top-0 z-50 gap-2 bg-card bg-secondary h-18 text-lg shadow-md p-2 px-80 w-full flex items-center justify-between">
       <div>
         <Image
-          src="/bonshatiroshow.png"
+          src="/fartcatLogo.png"
           width={100}
           height={80}
-          alt="the bon shapiro show"
+          alt="Fred the Farting Cat"
         />
       </div>
       {/* <div className="flex text-md gap-4">
@@ -36,7 +37,7 @@ export function Navigation() {
             <div className="flex rounded-md shadow-md flex-col gap-2">
               <Button asChild variant="outline" size="sm">
                 <Link
-                  href="https://birdeye.so/token/6bPFbxgpsFZg6WDruj7vrodq4GY7K7TmqUnAm1byu3PW?chain=solana"
+                  href={`https://birdeye.so/token/${CONTRACT_ADDRESS}?chain=solana`}
                   target="_blank"
                 >
                   Buy on Birdeye &nbsp; <ExternalLinkIcon size="14" />

@@ -11,36 +11,37 @@ import {
 } from "./ui/tooltip";
 import { Separator } from "./ui/separator";
 import { Card, CardTitle } from "./ui/card";
+import {
+  CONTRACT_ADDRESS,
+  TELEGRAM_LINK,
+  TWITTER_LINK,
+} from "@/helpers/common";
 
 const MainInfoCard = () => {
   const [tooltipText, setTooltipText] = useState("Copy");
   const onCopyCa = () => {
-    navigator.clipboard.writeText(
-      "6bPFbxgpsFZg6WDruj7vrodq4GY7K7TmqUnAm1byu3PW"
-    );
+    navigator.clipboard.writeText(CONTRACT_ADDRESS);
     setTooltipText("Copied! ✅");
   };
 
   return (
-    <Card  className="flex w-full max-w-lg min-h-full flex-col gap-3 p-2">
+    <Card className="flex w-full max-w-lg min-h-full flex-col gap-3 p-2">
       <div>
         <div className="flex flex-col justify-center text-center align-center">
           <div className="flex w-full justify-center">
             <Image
               className="rounded-full border"
-              alt="Bon Shatiro"
+              alt="Fred the Farting Cat"
               width={60}
               height={60}
-              src={"/bonshatiro.png"}
+              src={"/fartcatLogo.png"}
             />
           </div>
-          <h1 className="text-lg font-bold">Bon Shatiro</h1>
-          <h2 className="text-md font-bold">$BON</h2>
+          <h1 className="text-lg font-bold">Fred the Farting Cat</h1>
+          <h2 className="text-md font-bold">$FARTCAT</h2>
           <div className="flex text-xs justify-center gap md:text-md md:gap-2 items-center flex-wrap">
             Ca:
-            <div className="text-gray-500 text-xs">
-              6bPFbxgpsFZg6WDruj7vrodq4GY7K7TmqUnAm1byu3PW
-            </div>
+            <div className="text-gray-500 text-xs">{CONTRACT_ADDRESS}</div>
             <TooltipProvider>
               <Tooltip delayDuration={100}>
                 <TooltipTrigger asChild>
@@ -69,9 +70,9 @@ const MainInfoCard = () => {
       <Separator />
       <div className="text-center">
         <p>
-          Welcome to the Bon Shatiro CTO.
+          Welcome to Farting Cat.
           <br />
-          Facts don&apos;t care about your feelings.
+          Im glad SOL gas fees are low.
           <br />
         </p>
       </div>
@@ -86,11 +87,7 @@ const MainInfoCard = () => {
               alt="birdeye"
               className="w-6 h-6 rounded-full"
             />
-            <a
-              className="text-xs"
-              href="https://twitter.com/BonShatiroSOL"
-              target="_blank"
-            >
+            <a className="text-xs" href={TWITTER_LINK} target="_blank">
               Twitter
             </a>
           </div>
@@ -104,11 +101,7 @@ const MainInfoCard = () => {
               alt="birdeye"
               className="w-6 h-6 rounded-full"
             />
-            <a
-              className="text-xs"
-              href="https://t.co/gezdnpxrHC"
-              target="_blank"
-            >
+            <a className="text-xs" href={TELEGRAM_LINK} target="_blank">
               Telegram
             </a>
           </div>
@@ -142,28 +135,10 @@ const MainInfoCard = () => {
             />
             <a
               className="text-xs"
-              href="https://birdeye.so/token/6bPFbxgpsFZg6WDruj7vrodq4GY7K7TmqUnAm1byu3PW?chain=solana"
+              href={`https://birdeye.so/token/${CONTRACT_ADDRESS}?chain=solana`}
               target="_blank"
             >
               Birdeye
-            </a>
-          </div>
-        </Button>
-        <Button size={"sm"} asChild variant={"outline"}>
-          <div className="flex gap-1">
-            <Image
-              src="/youtube.png"
-              width={16}
-              height={16}
-              alt="youtube"
-              className="w-6 h-6 rounded-full"
-            />
-            <a
-              className="text-xs"
-              href="https://www.youtube.com/@BonShatiro"
-              target="_blank"
-            >
-              Youtube
             </a>
           </div>
         </Button>

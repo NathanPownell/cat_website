@@ -12,8 +12,8 @@ import Head from "next/head";
 import Footer from "@/components/footer";
 
 export const metadata: Metadata = {
-  title: "$BON Shatiro",
-  description: "Bon Shatiro CTO Website",
+  title: "$FRTCAT - Fred the Farting Cat",
+  description: "Fred the Farting Cat Website",
 };
 
 const fontSans = FontSans({
