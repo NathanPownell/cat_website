@@ -38,7 +38,7 @@ const MainInfoCard = () => {
             />
           </div>
           <h1 className="text-lg font-bold">Fred the Farting Cat</h1>
-          <h2 className="text-md font-bold">$FARTCAT</h2>
+          <h2 className="text-md font-bold">$FRTCAT</h2>
           <div className="flex text-xs justify-center gap md:text-md md:gap-2 items-center flex-wrap">
             Ca:
             <div className="text-gray-500 text-xs">{CONTRACT_ADDRESS}</div>
